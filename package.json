@@ -4,14 +4,20 @@
   "description": "Realtime chat app node+angular",
   "main": "index.js",
   "scripts": {
-    "start": "node ./app.js",
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "myBook",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
-    "mongoose": "^5.1.1"
+    "http-errors": "^1.6.3",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.1",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "socket.io": "^2.1.1"
   }
 }
